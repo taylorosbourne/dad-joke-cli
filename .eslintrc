@@ -1,4 +1,3 @@
 {
-  "extends": "oclif",
-  "allow": ["log"] 
+  "extends": "oclif"
 }
