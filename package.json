@@ -14,8 +14,7 @@
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-oclif": "^3.1.0"
+
   },
   "engines": {
     "node": ">=8.0.0"
@@ -36,7 +35,6 @@
   },
   "repository": "taylorosbourne/dad-joke",
   "scripts": {
-    "posttest": "eslint .",
     "test": "echo NO TESTS"
   }
 }
