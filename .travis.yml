@@ -1,11 +1,16 @@
 language: node_js
 node_js:
-  - node
-
+- node
 cache: npm
-
 script:
-  - .\bin\run --version
-  - .\bin\run --help
-  - npm run test
-
+- ".\\bin\\run --version"
+- ".\\bin\\run --help"
+- npm run test
+deploy:
+  provider: npm
+  email: taylorgosbourne@gmail.com
+  api_key:
+    secure: PM3oQgsMB+oNKCfju9psTleVSOK0s1MIGlnxKG1+4HroF83fh5DvmaxEOGvI4jA9gC7mmbrXugFKl8Ib3NBTcqRsm7Lv66pGZdkwlgCYy6M0xREqmOzsYv3dfx3VSO33q2qs3nWujCe9Ax9JyR4viEWlIPqnmIRkjs/S8KBJ5kL5Pj1KZu6UDJHYblwOMg8ppPzLvEpDXXmUU3PjicOSLspYfTy8r2Zvois2cHlHNvmJW5iR3Xm9fFarD5anYNSrvDXItKCPZUTko/Xz1zoL1ZbAawPvw96al037emiYHY8+6/36dpCY1RN22CiQW7J0JKEXdtX5A45hw/TeVzyk1L/VzSani8fKF2kkbeJFx22V96pGS9zG0zkIcmyM7y1TvkDaBiklpM8mEaAvyrvZowQ/EQDZ7UPWuYDFJ0QStAFqH6zEpScNPc2tyTdxWpK1gRe0gChdCjE9bnLbv80staceNl2Ti8kzn4A7y83SADdZKKQV+KZbnwcyg1sZfh22Fb0DefPcBEcwk/M6v9zy38HYJhB3RkoWQeeag+G3lKi5fRy8ZIhxuTuuR8b4Qanodq5jDkd7vWQHrvTEgMZSWaNCBcrvs/HypMhWhwPK4hNslW7gFUKqkQIuDjY+LlJulD9LYcYX43XJhAexjZJVTuJG1adSErdlIkKnh7TTTmk=
+  on:
+    tags: true
+    repo: taylorosbourne/dad-joke
