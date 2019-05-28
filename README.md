@@ -14,13 +14,12 @@ Built with the icanhazdadjoke API
 
 You want the dad jokes, this brings the dad jokes
 
-<!-- toc -->
 # Installation & Usage
 
 `$ npm install dad-joke-cli  -g`
 
 `$ dad-joke`
 
-Output:
+Example Output:
 
 `Every machine in the coin factory broke down all of a sudden without explanation. It just doesn’t make any cents.`

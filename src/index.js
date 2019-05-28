@@ -5,10 +5,10 @@ const API = 'https://icanhazdadjoke.com/'
 const getDadJoke = async () => {
   const res = await fetch(API, {
     headers: {
-      Accept: 'application/json',
-    },
+      Accept: 'application/json'
+    }
   })
-  const  data = await res.json()
+  const data = await res.json()
   console.log(data.joke)
 }
 class DadJokeCommand extends Command {
