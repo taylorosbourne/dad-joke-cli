@@ -6,6 +6,10 @@ dad-joke-cli
 [![Downloads/week](https://img.shields.io/npm/dw/dad-joke.svg)](https://www.npmjs.com/package/dad-joke-cli)
 [![License](https://img.shields.io/npm/l/dad-joke.svg)](https://github.com/taylorosbourne/dad-joke/blob/master/package.json)
 
+Built with the icanhazdadjoke API
+
+![icanhazdadjoke](https://i.imgur.com/f8JzDel.png "icanhazdadjoke")
+
 A panda walks into a bar and says to the bartender “I’ll have a Scotch and . . . . . . . . . . . . . . Coke thank you”.
 
 “Sure thing” the bartender replies and asks “but what’s with the big pause?”
