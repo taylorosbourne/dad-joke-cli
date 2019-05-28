@@ -1,0 +1,42 @@
+{
+  "name": "dad-joke",
+  "description": "You want the dad jokes, this brings the dad jokes",
+  "version": "0.1.0",
+  "author": "Taylor-Osbourne",
+  "bin": {
+    "dad-joke": "./bin/run"
+  },
+  "bugs": "https://github.com/taylorosbourne/dad-joke/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.13",
+    "@oclif/config": "^1.13.0",
+    "@oclif/plugin-help": "^2.1.6",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/taylorosbourne/dad-joke",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "preferGlobal": true,
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "dad-joke"
+  },
+  "repository": "taylorosbourne/dad-joke",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "echo NO TESTS"
+  }
+}
