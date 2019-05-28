@@ -4,7 +4,7 @@ const fetch = require('node-fetch')
 
 const API = 'https://icanhazdadjoke.com/'
 
-getDadJoke = async () => {
+const getDadJoke = async () => {
   const res = await fetch(API, {
     headers: {
       Accept: 'application/json'
@@ -18,8 +18,8 @@ getDadJoke = async () => {
 
 class DadJokeCommand extends Command {
   async run() {
-    const {flags} = this.parse(DadJokeCommand)
-    const name = flags.name || 'world'
+    // const {flags} = this.parse(DadJokeCommand)
+    // const name = flags.name || 'world'
     // this.log(`Dad Joke here`)
     getDadJoke()
   }
