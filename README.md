@@ -8,7 +8,9 @@ dad-joke-cli
 
 *Why did the half blind man fall in the well? Because he couldn't see that well!*
 
-![icanhazdadjoke](https://i.imgur.com/f8JzDel.png "icanhazdadjoke")
+<img style="max-width: 400px" src="https://i.imgur.com/f8JzDel.png" />
+
+<!-- ![icanhazdadjoke](https://i.imgur.com/f8JzDel.png "icanhazdadjoke") -->
 
 Built with the icanhazdadjoke API
 
