@@ -17,8 +17,10 @@ You want the dad jokes, this brings the dad jokes
 <!-- toc -->
 # Installation & Usage
 
-`npm install dad-joke-cli  -g`
+`$ npm install dad-joke-cli  -g`
 
-then run `dad-joke`
+`$ dad-joke`
 
-Have fun!
+Output:
+
+`Every machine in the coin factory broke down all of a sudden without explanation. It just doesn’t make any cents.`
