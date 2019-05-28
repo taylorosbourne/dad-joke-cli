@@ -17,10 +17,11 @@ class DadJokeCommand extends Command {
   }
 }
 
-DadJokeCommand.description = `-v shows the current version`
+DadJokeCommand.description = `There isn't much to it!  You want Dad jokes?  You'll get 'em!`
 
 DadJokeCommand.flags = {
-  version: flags.version({char: 'v'}),
+   version: flags.version({char: 'v'}),
+   help: flags.help({char: 'h'}),
 }
 
 module.exports = DadJokeCommand
