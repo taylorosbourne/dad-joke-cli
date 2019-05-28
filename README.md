@@ -10,6 +10,9 @@ You want the dad jokes, this brings the dad jokes
 
 <!-- toc -->
 # Usage
-<!-- usage -->
-# Commands
-<!-- commands -->
+
+`npm install dad-joke-cli  -g`
+
+then run `dad-joke`
+
+Have fun!
