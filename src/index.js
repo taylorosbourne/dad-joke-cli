@@ -3,6 +3,7 @@ const fetch = require('node-fetch')
 const API = 'https://icanhazdadjoke.com/'
 class DadJokeCommand extends Command {
   async run() {
+    const {flags} = this.parse(DadJokeCommand)
     const getDadJoke = async () => {
       const res = await fetch(API, {headers: {Accept: 'application/json'}})
       const data = await res.json()
