@@ -1,18 +1,13 @@
 const {Command, flags} = require('@oclif/command')
 const fetch = require('node-fetch')
 const API = 'https://icanhazdadjoke.com/'
-
-const getDadJoke = async () => {
-  const res = await fetch(API, {
-    headers: {
-      Accept: 'application/json'
-    }
-  })
-  const data = await res.json()
-  console.log(data.joke)
-}
 class DadJokeCommand extends Command {
   async run() {
+    const getDadJoke = async () => {
+      const res = await fetch(API, {headers: {Accept: 'application/json'}})
+      const data = await res.json()
+      this.log(data.joke)
+    }
     getDadJoke()
   }
 }
