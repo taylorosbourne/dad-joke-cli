@@ -4,14 +4,22 @@ node_js:
 cache: npm
 install:
   - npm install
-script:
-  - npm build
-
-deploy:
-  provider: npm
-  email: taylorgosbourne@gmail.com
-  api_key:
-    secure: H0vrsS8iNw7KkVGwuD6M2zM+VD2JCOpKyQ2xvKglAgaLIJdqxaz0eiN+dAaadMJIeD5KMDkhcAvufsuBNyVf0fnqwUCGH0I1990MrPj1ou2jDNS5r+ts5RB3s9ImyhOVBeD4PbqxccI24lfY/YNzzwf/wUY77KYfFPMipQP3UUykfg4vNXajSSuL4v4VetP3zZgwm8QoCHaODEBbSVXiLwkljyOdt8Uw94Ns4t0cDD6NBH37QchpcLQ1+MRS1SMGY8l3I1HUSp3+vtwi5ulo2lclsZxuEij3TyiV0wgb5lR9f4NjGJqCQd74TW8IMvxR6EflCZhcrJ860ZLyIEb5hDo/8ElIF4/jYx0WBiDWsJpPCKAXj0quQAzlAMXJRhkQERBVpba/ziuIZq/+JLqJE/fboa7xumgRxLetBxe4vW++sS/vx0Wy2L5lffPu4U1ZmWvfxuYV0F4UGtQXAZrQDVE2Z7W4vEBVR4Z+cl6ROJrM51vlINGI+EIg+HomPBjQuZ/MSr3dayQr+TfBWmNqskUPPDrlNY2Jm2HKZK19Yapb1ZwpyegA1VR9NtA/aB2hCEZ6O0N6j4SNqYSwWpe/V59VhJkNptikV0hv2VM2hZ3iNiMINDhK6qs31d7/zPQ8vzTKPda/T/3+Y/xNlh/VmFMSwLVrnuaqtzswPlYjZ88=
-  on:
-    tags: true
-    repo: taylorosbourne/dad-joke
+jobs:
+  include:
+    - stage: Build
+      script: 
+        - npm build
+    - stage: npm release
+      script: npm build
+      deploy:
+        provider: npm
+        email: '$NPM_EMAIL'
+        api_key: '$NPM_TOKEN'
+        skip_cleanup: true
+        on:
+          tags: true
+          repo: taylorosbourne/dad-joke
+branches:
+  only:
+    - master
+    - /^v[0-9]+.*$/
