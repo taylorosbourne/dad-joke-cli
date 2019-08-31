@@ -6,7 +6,7 @@
   "bin": {
     "dad-joke": "./bin/run"
   },
-  "bugs": "https://github.com/taylorosbourne/dad-joke/issues",
+  "bugs": "https://github.com/taylorosbourne/dad-joke-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.13",
     "@oclif/config": "^1.13.0",
@@ -24,7 +24,7 @@
     "/bin",
     "/src"
   ],
-  "homepage": "https://github.com/taylorosbourne/dad-joke",
+  "homepage": "https://github.com/taylorosbourne/dad-joke-cli",
   "keywords": [
     "dad jokes"
   ],
@@ -34,7 +34,7 @@
   "oclif": {
     "bin": "dad-joke"
   },
-  "repository": "taylorosbourne/dad-joke",
+  "repository": "taylorosbourne/dad-joke-cli",
   "scripts": {
     "test": "echo NO TESTS"
   }
