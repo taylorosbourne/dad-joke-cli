@@ -20,4 +20,6 @@ jobs:
           tags: true
           repo: taylorosbourne/dad-joke-cli
 branches:
-  
+  only:
+    - master
+    - /^v[0-9]+.*$/
