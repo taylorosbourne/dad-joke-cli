@@ -5,6 +5,8 @@ dad-joke-cli
 [![License](https://img.shields.io/npm/l/dad-joke-cli.svg?color=blue)](https://github.com/taylorosbourne/dad-joke/blob/master/package.json)
 [![Travis/builds](https://img.shields.io/travis/taylorosbourne/dad-joke-cli)](https://www.npmjs.com/package/dad-joke-cli)
 
+[![Downloads](https://img.shields.io/npm/dt/dad-joke-cli)](https://www.npmjs.com/package/dad-joke-cli)
+
 *Why did the half blind man fall in the well? Because he couldn't see that well!*
 
 ![icanhazdadjoke](https://i.imgur.com/f8JzDel.png?1 "icanhazdadjoke")
