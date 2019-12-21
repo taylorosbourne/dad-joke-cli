@@ -3,7 +3,7 @@ dad-joke-cli
 
 [![Version](https://img.shields.io/npm/v/dad-joke-cli.svg?color=tomato)](https://www.npmjs.com/package/dad-joke-cli)
 [![License](https://img.shields.io/npm/l/dad-joke-cli.svg?color=blue)](https://github.com/taylorosbourne/dad-joke/blob/master/package.json)
-[![Travis/builds](https://img.shields.io/travis/taylorosbourne/dad-joke-cli)](https://www.npmjs.com/package/dad-joke-cli)
+[![Travis/builds](https://img.shields.io/travis/com/taylorosbourne/dad-joke-cli/master)](https://www.npmjs.com/package/dad-joke-cli)
 
 [![Downloads](https://img.shields.io/npm/dt/dad-joke-cli)](https://www.npmjs.com/package/dad-joke-cli)
 

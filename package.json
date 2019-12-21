@@ -1,7 +1,7 @@
 {
   "name": "dad-joke-cli",
   "description": "You want the dad jokes, this brings the dad jokes",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Taylor-Osbourne",
   "bin": {
     "dad-joke": "./bin/run"
