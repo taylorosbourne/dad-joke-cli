@@ -1,11 +1,11 @@
 dad-joke-cli
 ========
 
-[![Version](https://img.shields.io/npm/v/dad-joke-cli.svg?color=tomato&style=flat-square)](https://www.npmjs.com/package/dad-joke-cli)
-[![License](https://img.shields.io/npm/l/dad-joke-cli.svg?color=blue&style=flat-square)](https://github.com/taylorosbourne/dad-joke/blob/master/package.json)
-[![Travis/builds](https://img.shields.io/travis/com/taylorosbourne/dad-joke-cli/master?style=flat-square)](https://www.npmjs.com/package/dad-joke-cli)
-[![Downloads](https://img.shields.io/npm/dt/dad-joke-cli?color=green&style=flat-square)](https://www.npmjs.com/package/dad-joke-cli)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ffa2706e1cc32add6375/maintainability)](https://codeclimate.com/github/taylorosbourne/dad-joke-cli/maintainability)
+[![Version](https://img.shields.io/npm/v/dad-joke-cli.svg?color=tomato&style=for-the-badge)](https://www.npmjs.com/package/dad-joke-cli)
+[![License](https://img.shields.io/npm/l/dad-joke-cli.svg?color=blue&style=for-the-badge)](https://github.com/taylorosbourne/dad-joke/blob/master/package.json)
+![Travis (.org)](https://img.shields.io/travis/taylorosbourne/dad-joke-cli?logo=travis&style=for-the-badge)
+[![Downloads](https://img.shields.io/npm/dt/dad-joke-cli?color=green&style=for-the-badge&logo=npm)](https://www.npmjs.com/package/dad-joke-cli)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/taylorosbourne/dad-joke-cli?color=45d298&logo=code%20climate&style=for-the-badge)
 
 *Why did the half blind man fall in the well? Because he couldn't see that well!*
 
